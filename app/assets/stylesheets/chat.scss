@@ -1,0 +1,35 @@
+// Place all the styles related to the Chat controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 1vh;
+    text-align: center;
+}
+
+button, input {
+    width: 48vw;
+    font-size: 8vh;
+}
+
+ul {
+    text-align: left;
+    font-size: 4vh;
+    list-style: none;
+}
+
+.message {
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.input {
+    position: absolute;
+    bottom: 0;
+}
